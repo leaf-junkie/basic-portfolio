@@ -1,0 +1,13 @@
+body {
+    color: black;
+    background-color: lightgrey;
+}
+
+header {
+    color: ghostwhite;
+    background-color: darkslategrey;
+}
+
+ul {
+    list-style: none;
+}
