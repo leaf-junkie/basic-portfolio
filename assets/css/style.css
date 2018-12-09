@@ -1,6 +1,8 @@
-/*                                         */
+/* --------------------------------------- */
+/*                                         */                                         */
 /*     CSS styling for Basic Portfolio     */
 /*                                         */
+/* --------------------------------------- */
 
 /* Provide line-height of 200% and change body color */
 body {
@@ -9,7 +11,13 @@ body {
     line-height: 200%;
 }
 
-/* Make the header stick to the top and reach across the screen */
+/* --------------------------------------- */
+/*                                         */                                         */
+/*        HEADER AND NAVIGATION BAR        */
+/*                                         */
+/* --------------------------------------- */
+
+/* Make a sticky header */
 .header {
     position: absolute;
     top: 0;
@@ -23,14 +31,15 @@ body {
 /* Apply position and padding to name */
 .topbar {
     position: relative;
-    margin-left: 20%;
+    border-bottom: 1px solid #ccc;
 }
 
 /* Remove margins and padding from topnav, and add white background */
 ul.topnav {
     list-style-type: none;
-    margin: 0px;
+    margin: 0 auto 0 auto;
     padding: 0px;
+    width: 960px;
     overflow: hidden;
 }
 
@@ -68,31 +77,39 @@ div.name {
     margin-left: -152px;
 }
 
-/* Float the subheadings About, POrtfolio, and Contact left, and change the color*/
+/* --------------------------------------- */
+/*                                         */                                         */
+/*              SUBHEADINGS                */
+/*                                         */
+/* --------------------------------------- */
+
+/* Float the subheadings About, Portfolio, and Contact left, and change the color*/
 h2.subheading {
-    color: #4aaaa5;
-    text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
     padding-bottom: 10px;
     padding-left: 0px;
     border-bottom: 1px solid #ccc;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
 }
 
-/* */
-.about {
-    vertical-align: middle;
-}
+/* --------------------------------------- */
+/*                                         */                                         */
+/*              ABOUT ME PAGE              */
+/*                                         */
+/* --------------------------------------- */
 
-/* */
-section.section-about {
-    background-color: #fff;
+div.div-about {
     display: block;
+}
+
+section.section-about {
     padding: 20px;
     text-align: left;
-    margin: auto;
-    margin-top: 100px;
+    border: 1px solid #ddd;
+    background-color: #fff;
 }
-
 
 /* */
 p {
@@ -104,19 +121,20 @@ img {
     padding-right: 25px;
 }
 
-/* */
+/* --------------------------------------- */
+/*                                         */                                         */
+/*             PORTFOLIO PAGE              */
+/*                                         */
+/* --------------------------------------- */
+
+/* Style the "Portfolio" page */
 section.section-portfolio {
-    background-color: #fff;
     display: block;
-    padding: 50px;
     text-align: center;
-    margin: auto;
-    margin-top: 100px;
-}
-
-/* */
-.row {
-
+    margin: 10% 19.5%;
+    padding-bottom: 5%;
+    border: 1px solid #ddd;
+    background-color: #fff;
 }
 
 /* Create two equal colums that sit next to each other */
@@ -130,7 +148,12 @@ section.section-portfolio {
     vertical-align: middle;
 }
 
-/* Adjust the size and position of the form */
+/* --------------------------------------- */
+/*                                         */                                         */
+/*              CONTACT PAGE               */
+/*                                         */
+/* --------------------------------------- */
+
 .form {
     display: block;
     text-align: left;
@@ -155,7 +178,7 @@ textarea {
     width: 99%;
 }
 
-/* Make the footer stick to the bottom and reach across the screen */
+/* Make a sticky footer */
 .footer {
     position: absolute;
     bottom: 0px;
