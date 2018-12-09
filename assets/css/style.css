@@ -5,7 +5,7 @@
 /* Provide line-height of 200% and change body color */
 body {
     color: black;
-    background-color: lightgrey;
+    background-image: url(../images/concrete-texture/concrete-texture.png);
     line-height: 200%;
 }
 
@@ -56,15 +56,17 @@ div.name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
     background-color: #4aaaa5;
+    padding: 10px;
+    margin-left: -152px;
 }
 
-/* Float the word "Contact" left and change the color to teal*/
+/* Float the subheadings About, POrtfolio, and Contact left, and change the color*/
 h2.subheading {
     color: #4aaaa5;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-bottom: 25px;
-    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-left: 0px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -126,6 +128,7 @@ section.section-portfolio {
     text-align: left;
     margin: auto;
     margin-top: 100px;
+    padding: 25px;
     width: 50%;
     height: 50%;
     font-family: Arial, Helvetica, sans-serif;
