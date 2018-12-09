@@ -1,22 +1,28 @@
+/*                                         */
+/*     CSS styling for Basic Portfolio     */
+/*                                         */
+
+/* Provide line-height of 200% and change body color */
 body {
     color: black;
     background-color: lightgrey;
     line-height: 200%;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-img {
-    padding-right: 25px;
+/* Make the header stick to the top and reach across the screen */
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 25px;
 }
 
 /* Remove margins and padding from topnav, and add white background */
 ul.topnav {
     background-color: white;
     list-style-type: none;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #ccc;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
@@ -38,28 +44,42 @@ ul.topnav li a {
     font-size: 18px;
 }
 
+/* */
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 40px;
     padding-left: 150px;
 }
-    
+
+/* */
 h2.name {
     margin-left: -50%;
 }
 
+/* */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* */
+img {
+    padding-right: 25px;
+}
+
+/* */
 .about {
     vertical-align: middle;
 }
 
+/* */
 section.section-portfolio {
-    border: 1px solid orange;
     display: block;
     padding: 50px;
     text-align: center;
     margin: auto;
 }
 
+/* */
 section.section-about {
     border: 1px solid orange;
     display: block;
@@ -68,6 +88,7 @@ section.section-about {
     margin: auto;
 }
 
+/* */
 .row {
 
 }
@@ -77,17 +98,20 @@ section.section-about {
     padding: 0 4 px;
 }
 
+/* */
 .column img {
     margin-top: 10px;
     vertical-align: middle;
 }
 
+/* */
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
   }
 
+/* */
 .form {
     display: block;
     text-align: left;
@@ -96,6 +120,7 @@ section.section-about {
     height: 50%;
 }
 
+/* */
 form {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -107,10 +132,16 @@ h2.contact {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 25px;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #ccc;
 }
 
-footer {
+/* Make the footer stick to the bottom and reach across the screen */
+.footer {
+    position: absolute;
+    bottom: 0px;
     text-align: center;
+    left: 0px;
+    right: 0px;
     border-top: 4px solid #4aaaa5;
+    background-color: #666;
 }
