@@ -12,17 +12,23 @@ body {
 /* Make the header stick to the top and reach across the screen */
 .header {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 100;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Apply position and padding to name */
+.topbar {
+    position: relative;
+    margin-left: 20%;
 }
 
 /* Remove margins and padding from topnav, and add white background */
 ul.topnav {
-    background-color: #fff;
     list-style-type: none;
-    border-bottom: 1px solid #ccc;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
@@ -56,6 +62,8 @@ div.name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
     background-color: #4aaaa5;
+    position: relative;
+    overflow: hidden;
     padding: 10px;
     margin-left: -152px;
 }
@@ -126,7 +134,8 @@ section.section-portfolio {
 .form {
     display: block;
     text-align: left;
-    margin: auto;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
     margin-top: 100px;
     padding: 25px;
     width: 50%;
@@ -135,6 +144,15 @@ section.section-portfolio {
     background-color: #fff;
     color: #777;
     border: 1px solid #ddd;
+}
+
+/* Adjust the width of the input */
+.input {
+    width: 99%;
+}
+
+textarea {
+    width: 99%;
 }
 
 /* Make the footer stick to the bottom and reach across the screen */
