@@ -1,5 +1,5 @@
 /* --------------------------------------- */
-/*                                         */                                         */
+/*                                         */
 /*     CSS styling for Basic Portfolio     */
 /*                                         */
 /* --------------------------------------- */
@@ -12,7 +12,7 @@ body {
 }
 
 /* --------------------------------------- */
-/*                                         */                                         */
+/*                                         */
 /*        HEADER AND NAVIGATION BAR        */
 /*                                         */
 /* --------------------------------------- */
@@ -28,16 +28,15 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
-/* Apply position and padding to name */
+/* Apply position to name */
 .topbar {
     position: relative;
-    border-bottom: 1px solid #ccc;
 }
 
 /* Remove margins and padding from topnav, and add white background */
 ul.topnav {
     list-style-type: none;
-    margin: 0 auto 0 auto;
+    margin: -35px auto 0px auto;
     padding: 0px;
     width: 960px;
     overflow: hidden;
@@ -59,12 +58,6 @@ ul.topnav li a {
     font-size: 18px;
 }
 
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 40px;
-    padding-left: 150px;
-}
-
 /* Place my name in a box and give it color */
 div.name {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -76,24 +69,32 @@ div.name {
     margin-left: -152px;
 }
 
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+
 /* --------------------------------------- */
-/*                                         */                                         */
+/*                                         */
 /*              SUBHEADINGS                */
 /*                                         */
 /* --------------------------------------- */
 
 /* Float the subheadings About, Portfolio, and Contact left, and change the color*/
-h2.subheading {
-    position: relative;
+div.subheading {
     width: 960px;
-    padding-bottom: 5px;
+    margin: 0 auto;
     border-bottom: 1px solid #ccc;
+}
+
+h2.h2-subheading {
     color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;position: relative;
 }
 
 /* --------------------------------------- */
-/*                                         */                                         */
+/*                                         */
 /*              ABOUT ME PAGE              */
 /*                                         */
 /* --------------------------------------- */
@@ -101,7 +102,7 @@ h2.subheading {
 div.div-about {
     display: block;
     position: relative;
-    margin: 0 auto 0 auto;
+    margin: 150px auto;
     width: 960px;
 }
 
@@ -112,28 +113,25 @@ section.section-about {
     background-color: #fff;
 }
 
-/* */
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
-/* */
 img {
     padding-right: 25px;
 }
 
 /* --------------------------------------- */
-/*                                         */                                         */
+/*                                         */
 /*             PORTFOLIO PAGE              */
 /*                                         */
 /* --------------------------------------- */
 
-/* Style the "Portfolio" page */
 div.div-portfolio {
     display: block;
     position: relative;
-    margin: 0 auto 0 auto;
+    margin: 150px auto;
     width: 960px;
 }
 
@@ -151,14 +149,13 @@ section.section-portfolio {
     padding: 0 4 px;
 }
 
-/* */
 .column img {
     margin-top: 10px;
     vertical-align: middle;
 }
 
 /* --------------------------------------- */
-/*                                         */                                         */
+/*                                         */
 /*              CONTACT PAGE               */
 /*                                         */
 /* --------------------------------------- */
@@ -166,7 +163,7 @@ section.section-portfolio {
 div.div-contact {
     display: block;
     position: relative;
-    margin: 0 auto 0 auto;
+    margin: 150px auto;
     width: 960px;
 }
 
@@ -205,7 +202,6 @@ textarea {
     background-color: #666;
 }
 
-/* */
 .clearfix:after {
     content: "";
     display: table;
