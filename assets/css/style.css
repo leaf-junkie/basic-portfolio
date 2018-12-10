@@ -66,13 +66,11 @@ div.name {
     position: relative;
     overflow: hidden;
     padding: 10px;
-    margin-left: -152px;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 40px;
-    padding-left: 150px;
 }
 
 /* --------------------------------------- */
@@ -85,7 +83,6 @@ h2 {
 div.subheading {
     width: 960px;
     margin: 0 auto;
-    border-bottom: 1px solid #ccc;
 }
 
 h2.h2-subheading {
@@ -102,7 +99,7 @@ h2.h2-subheading {
 div.div-about {
     display: block;
     position: relative;
-    margin: 150px auto;
+    margin: 75px auto;
     width: 960px;
 }
 
@@ -132,7 +129,7 @@ img {
 div.div-portfolio {
     display: block;
     position: relative;
-    margin: 150px auto;
+    margin: 75px auto;
     width: 960px;
 }
 
@@ -156,7 +153,7 @@ section.section-portfolio {
 div.div-contact {
     display: block;
     position: relative;
-    margin: 150px auto;
+    margin: 75px auto;
     width: 960px;
 }
 
@@ -169,7 +166,6 @@ div.div-contact {
 .form {
     display: block;
     text-align: left;
-    margin-top: 100px;
     padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
