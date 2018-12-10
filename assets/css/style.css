@@ -116,6 +116,7 @@ section.section-about {
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    text-align: justify;
 }
 
 img {
@@ -136,22 +137,14 @@ div.div-portfolio {
 }
 
 section.section-portfolio {
-    display: block;
-    text-align: center;
-    margin: 10% 19.5%;
-    padding-bottom: 5%;
+    padding: 20px;
+    text-align: left;
     border: 1px solid #ddd;
     background-color: #fff;
 }
 
-/* Create two equal colums that sit next to each other */
-.column {
-    padding: 0 4 px;
-}
-
 .column img {
-    margin-top: 10px;
-    vertical-align: middle;
+    padding: 13px;
 }
 
 /* --------------------------------------- */
@@ -167,29 +160,38 @@ div.div-contact {
     width: 960px;
 }
 
+/* --------------------------------------- */
+/*                                         */
+/*                  FORM                   */
+/*                                         */
+/* --------------------------------------- */
+
 .form {
     display: block;
     text-align: left;
-    margin-left: 19.5%;
-    margin-right: 19.5%;
     margin-top: 100px;
     padding: 25px;
-    width: 50%;
-    height: 50%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
     color: #777;
     border: 1px solid #ddd;
 }
 
-/* Adjust the width of the input */
+/* Adjust the width of the form's input */
 .input {
     width: 99%;
 }
 
+/* Adjust the width of the form's textarea */
 textarea {
     width: 99%;
 }
+
+/* --------------------------------------- */
+/*                                         */
+/*                 FOOTER                  */
+/*                                         */
+/* --------------------------------------- */
 
 /* Make a sticky footer */
 .footer {
@@ -201,6 +203,12 @@ textarea {
     border-top: 8px solid #4aaaa5;
     background-color: #666;
 }
+
+/* --------------------------------------- */
+/*                                         */
+/*                CLEARFIX                 */
+/*                                         */
+/* --------------------------------------- */
 
 .clearfix:after {
     content: "";
