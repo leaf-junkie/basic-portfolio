@@ -134,7 +134,6 @@ div.div-portfolio {
 }
 
 section.section-portfolio {
-    padding: 20px;
     text-align: left;
     border: 1px solid #ddd;
     background-color: #fff;
@@ -142,6 +141,18 @@ section.section-portfolio {
 
 .column img {
     padding: 13px;
+    background-color: #fff;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+.project-name {
+    
 }
 
 /* --------------------------------------- */
